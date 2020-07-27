@@ -13,7 +13,7 @@ const Nav = () => {
           </NavLink>
           <NavD.NavContainer>
             <NavLink className="nav-link" to="/mmm">
-              Lafayette Weather
+              Local Weather
             </NavLink>
           </NavD.NavContainer>
         </NavD.NavButtons>

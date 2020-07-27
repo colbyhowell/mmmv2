@@ -34,17 +34,17 @@ const Weather = () => {
       <>
         <div className="weather-data-row">
           <div className="weather-data">
-            Lafayette Temperature Mean Data
+            {weatherData.data.city} Temperature Mean Data
             <br />
             {weatherData.data.mean}
           </div>
           <div className="weather-data">
-            Lafayette Temperature Median Data
+            {weatherData.data.city} Temperature Median Data
             <br />
             {weatherData.data.median}
           </div>
           <div className="weather-data">
-            Lafayette Temperature Mode Data
+            {weatherData.data.city} Temperature Mode Data
             <br />
             {weatherData.data.mode}
           </div>
