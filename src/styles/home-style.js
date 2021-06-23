@@ -13,7 +13,9 @@ export const HomeTitle = Styled.h1`
     text-align: center;
 `;
 
-export const Flip = Styled.div`
+export const HomeText = Styled.p`
+    font-size: 2rem;
     display: flex;
     justify-content: center;
+    padding: 0px 0px 20px 20px;
 `;

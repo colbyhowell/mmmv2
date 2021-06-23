@@ -1,12 +1,5 @@
 .App {
-  display: flex;
-  justify-content: space-between;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+  background-color: #e2e2e2d5;
 }
 
 .App-header {
@@ -26,12 +19,12 @@
   white-space: nowrap;
 }
 
-.scp-logo {
+.logo {
   width: 20%;
 }
 
 .zipForm {
-  display: flex;
+  display: flex;  
   justify-content: center;
   padding-top: 20px;
 }
@@ -40,6 +33,12 @@
   display: flex;
   justify-content: space-evenly;
   padding-top: 10%;
+}
+
+@media screen and (max-width: 796px) {
+  .weather-data-row {
+    flex-direction: column;
+  }
 }
 
 .weather-data {
@@ -51,11 +50,5 @@
   border: 1px solid black;
   border-radius: 2%;
   padding: 20px 20px 20px 20px;
-}
-
-.flip {
-  max-height: 500px;
-  max-width: 750px;
-  display: flex;
-  justify-content: center;
+  margin-bottom: 10px
 }

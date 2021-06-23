@@ -1,17 +1,18 @@
 import React from "react";
 import * as HomeD from "../styles/home-style";
-import flip from "../../src/flip.jpg";
 
 const Home = () => {
   return (
+    <>
     <HomeD.HomeIntro>
       <HomeD.HomeTitle>
-        Welcome to Colby's SCP Health Take Home Test
+        Welcome to Colby's Weather App
       </HomeD.HomeTitle>
-      <HomeD.Flip>
-        <img src={flip} className="flip" alt="flip" />
-      </HomeD.Flip>
     </HomeD.HomeIntro>
+    <HomeD.HomeText>
+      Hey guys. Thanks for giving me this challenge. It was a lot of fun and it was awesome working with JS again.
+    </HomeD.HomeText>
+    </>
   );
 };
 

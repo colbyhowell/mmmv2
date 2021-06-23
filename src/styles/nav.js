@@ -11,7 +11,7 @@ export const NavContainer = styled.div`
 export const NavWithFace = styled.div`
   display: flex;
   flex-flow: row;
-  justify-content: space-evenly;
+  justify-content: center;
   padding-top: 20px;
   border-bottom: 2px black solid;
   background-color: rgba(255, 255, 255, 0.8);

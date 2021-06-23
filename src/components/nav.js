@@ -1,7 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import * as NavD from "../styles/nav";
-import scpLogo from "../../src/scplogo.png";
+import suncloud from "../../src/suncloud.png";
 
 const Nav = () => {
   return (
@@ -9,7 +9,7 @@ const Nav = () => {
       <NavD.NavWithFace>
         <NavD.NavButtons>
           <NavLink className="face-link" to="/">
-            <img src={scpLogo} className="scp-logo" alt="log" />
+            <img src={suncloud} className="logo" alt="log" />
           </NavLink>
           <NavD.NavContainer>
             <NavLink className="nav-link" to="/mmm">
