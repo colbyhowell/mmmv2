@@ -19,8 +19,7 @@ const Weather = () => {
   function handleSubmit(e) {
     e.preventDefault()
     axios
-      // .get(`https://custome-mmm-weather-backend.herokuapp.com/${zip}`)
-      .get(`http://localhost:5000/zip`, request)
+      .get(`https://custome-mmm-weather-backend.herokuapp.com/${zip}`)
       .then((res) => setWeatherData(res))
       .catch((err) => console.log(err.response));
   }
